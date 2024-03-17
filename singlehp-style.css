@@ -1,0 +1,169 @@
+@font-face {
+	font-family: 'hp';
+	src: url(font/HARRYP__.TTF);
+}
+body{
+    background: url(image/Hogwarts-Legacy-l-heritage-de-Poudlard-1571987.jpg) no-repeat fixed center center / cover;
+    font-family: hp;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 90vh;
+}
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+}
+
+footer>div>h2{
+    color: white;
+    margin: 0;
+}
+
+h3{
+    font-size: 150%;
+    margin: 2%
+}
+
+#Logo{
+    height: 20vh;
+}
+
+.Carte{
+    height: 70vh;
+    width: 50vh;
+    background-color: #5d3521;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 0.8rem #5d3521;
+    transform: scale(1, 1);
+    transition-duration: 500ms;
+    margin-left: 2%;
+}
+
+.SubDiv{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.TexteCarte{
+    width: 100%;
+    height: 15%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    background-color: goldenrod;
+}
+
+.ImageCarte{
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    object-fit: cover; 
+    overflow:hidden;
+    border: solid goldenrod 5px;
+    box-sizing: border-box;
+    background-color: #885e45;
+    border-radius: 25%;
+}
+
+.Rounded{
+    border-radius: 10% / 7%
+}
+
+.Rond{
+    height: 50px;
+    width: 50px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Rond > h3{
+    font-size: 200%;
+}
+
+.Id{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.Information{
+    margin-top: 10%;
+    width: 100%;
+    background-color: #885e45;
+}
+
+.Bandeau{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin: 3vh 0;
+    height: 8vh;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.Img{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Img > a, #Icon-droite > a, #Icon-gauche > a{
+    height: 90%;
+}
+
+a > img{
+    height: 100%;
+}
+
+#Icon-droite{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+    width: 10vw;
+    margin-right: 2vw;
+}
+
+#Icon-gauche{
+    height: 80%;
+    margin-left: 3%;
+}
+
+#FooterBas{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 3vw;
+}

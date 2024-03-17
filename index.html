@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="image/9e9ffe36-8d37-4da6-8399-775b372f58dd.png" alt="Harry Potter" id="Logo">
+    </header>
+
+    <main>
+        <div class="Bandeau">
+<!--Menu à gauche pour la recherche-->
+            <div id="MenuRecherche">
+                <select name="Tri" id="Tri">
+                    <option value="Prenom" selected>Prenom</option>
+                    <option value="DePrenom">Prenom Décroissant</option>
+                    <option value="Age">Age</option>
+                    <option value="DeAge">Age Décroissant</option>
+                    <option value="Id">ID</option>
+                    <option value="DeId">ID Décroissant</option>
+                    <option value="Maison">Maison</option>
+                    <optgroup label="Maison spécifique">
+                        <option value="Gryffondor">Gryffondor</option>
+                        <option value="Poufsouffle">Poufsouffle</option>
+                        <option value="Serdaigle">Serdaigle</option>
+                        <option value="Serpentard">Serpentard</option>
+                    </optgroup>
+                </select>
+                <input type="search" placeholder="Recherche par nom" id="Recherche">
+            </div>
+<!--Icon pour la suite du projet (Création profil + Achat d'un pack)-->
+            <div id="Icon-droite">
+                <a href="">
+                    <img src="image/AdobeStock_358014418.png" alt="Panier">
+                </a>
+                <a href="">
+                    <img src="image/AdobeStock_653549338.png" alt="Profil">
+                </a>
+            </div>
+
+        </div>
+
+        <div id="Cartes">
+            <!--CARTE TEST (pour voir à quoi elle ressemble) + note perso "version finale faire en sorte que le fond change en fonction de la couleur de la maison"
+            <a href="singlehp.html?slug=${character.slug}">
+            <div class="Carte Rounded">
+                <div class="Id">
+                    <div class="Rond">
+                        <h3>${character.id}</h3>
+                    </div>  
+                </div>
+                <div class="SubDiv">
+                    <img src="${character.image}" class="ImageCarte">
+                    <div class="TexteCarte">
+                        <h3>${character.name}</h3>
+                    </div>
+                </div>
+            </div>
+        </a>-->
+        </div>
+    </main>
+<!--Bas du projet (à modifier pour la suite)-->
+    <footer>
+        <div id="FooterBas">
+            <h2>Retrouvez-nous sur les réseaux !</h2>
+            <div class="Img">
+               <a href="https://www.instagram.com">
+                   <img src="image/insta.png" alt="Instagram">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="image/X_logo_2023.png" alt="X">
+                </a>
+                    <a href="https://www.facebook.com">
+                    <img src="image/Facebook_logo_(square).png" alt="Facebook">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
